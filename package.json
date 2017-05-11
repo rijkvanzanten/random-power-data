@@ -1,0 +1,18 @@
+{
+  "name": "random-power-data",
+  "version": "1.0.0",
+  "description": "Simple api which pushes random power usage values every 500ms over a websocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "DEBUG=powerdata nodemon index.js"
+  },
+  "repository": "rijkvanzanten/random-power-data",
+  "keywords": ["random", "data", "power"],
+  "author": "Rijk van Zanten <rijkvanzanten@me.com> (rijks.website)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rijkvanzanten/random-power-data/issues"
+  },
+  "homepage": "https://github.com/rijkvanzanten/random-power-data#readme"
+}
