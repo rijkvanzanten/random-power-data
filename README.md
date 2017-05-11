@@ -1,5 +1,5 @@
 # random-power-data
-Simple api which pushes random power usage values every 500ms over a websocket
+Simple api which pushes random power usage values in format `[avg, min, max]` every 500ms over a websocket
 
 ## Usage
 Connect to my live instance of the API:
@@ -31,6 +31,9 @@ Start the app in dev mode (with debugging messages):
 ```bash
 $ npm run dev
 ```
+
+### ENV settings
+You can modify the port on which the server runs by providing a PORT env variable.
 
 ## License
 
