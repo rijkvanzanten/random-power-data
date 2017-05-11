@@ -31,16 +31,16 @@ function randomize(lastValue) {
     max = lastValue[2] + getRandomNumber(deviation);
   }
 
-  if (avg < 0) {
-    avg = 0;
+  if (avg < 1000) {
+    avg = 1000;
   }
 
-  if (min < 0) {
-    min = 0;
+  if (min < 1000) {
+    min = 1000;
   }
 
-  if (max < 0) {
-    max = 0;
+  if (max < 1000) {
+    max = 1000;
   }
 
   const newValue = [avg, min, max];
