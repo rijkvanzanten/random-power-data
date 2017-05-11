@@ -8,11 +8,26 @@
     "dev": "DEBUG=powerdata nodemon index.js"
   },
   "repository": "rijkvanzanten/random-power-data",
-  "keywords": ["random", "data", "power"],
+  "keywords": [
+    "random",
+    "data",
+    "power"
+  ],
   "author": "Rijk van Zanten <rijkvanzanten@me.com> (rijks.website)",
   "license": "MIT",
+  "xo": {
+    "space": true
+  },
   "bugs": {
     "url": "https://github.com/rijkvanzanten/random-power-data/issues"
   },
-  "homepage": "https://github.com/rijkvanzanten/random-power-data#readme"
+  "homepage": "https://github.com/rijkvanzanten/random-power-data#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "xo": "^0.18.2"
+  },
+  "dependencies": {
+    "debug": "^2.6.6",
+    "ws": "^2.3.1"
+  }
 }
