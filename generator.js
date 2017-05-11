@@ -27,7 +27,7 @@ function randomize(lastValue) {
     min = lastValue[1] + getRandomNumber(deviation);
   }
 
-  while (max - min > 50000) {
+  while (max - min > 20000) {
     max = lastValue[2] + getRandomNumber(deviation);
   }
 
